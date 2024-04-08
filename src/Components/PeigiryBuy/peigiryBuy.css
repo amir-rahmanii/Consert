@@ -1,0 +1,13 @@
+.FormChallenge{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.moshakhsat{
+    background-color: rgb(240, 109, 16);
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+}

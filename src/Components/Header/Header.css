@@ -1,0 +1,13 @@
+.linkheader{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+    padding: 10px;
+    margin-left: 13px;
+}
+
+.linkheaderBrand{
+    color: red;
+    font-size: 28px;
+    text-decoration: none;
+}

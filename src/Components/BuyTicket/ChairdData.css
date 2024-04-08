@@ -1,0 +1,38 @@
+.containerchair{
+   max-width: 250px;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+
+.divcontainerchair{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.containerchairCol{
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 3px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.visiable{
+    background-color: green;
+}
+
+.sabtsefaresh{
+    background-color: rgb(240, 109, 16);
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}

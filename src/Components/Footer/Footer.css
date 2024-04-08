@@ -1,0 +1,10 @@
+.containerFooter{
+    background-color: rgb(245, 229, 229);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.containerFooter p {
+    font-size: 18px;
+}

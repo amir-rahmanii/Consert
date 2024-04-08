@@ -1,0 +1,12 @@
+.btnbuyticket{
+    color: #fff;
+    text-decoration: none;
+    background-color: rgb(240, 109, 16);
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.btnbuyticket:hover {
+    opacity: 0.7;
+}

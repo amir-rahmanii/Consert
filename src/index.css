@@ -1,0 +1,12 @@
+@font-face {
+  font-family: yekanBold;
+  src: url(Yekan\ Bakh\ NoEn/Webfonts/fonts/woff/YekanBakhNoEn-Bold.woff);
+}
+/* @font-face {
+  font-family:num ;
+  src: url(Yekan\ Bakh\ FaNum/Webfonts/fonts/woff/YekanBakhFaNum-Bold.woff);
+} */
+
+* {
+  font-family: yekanBold;
+}
