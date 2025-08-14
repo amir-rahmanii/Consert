@@ -65,6 +65,21 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
+
+
+## CLI Options
+| Option                  | Description                                        | Default  | Allowed Values                                                              |
+| ----------------------- | -------------------------------------------------- | -------- | --------------------------------------------------------------------------- |
+| `--sort <TYPE>`         | Sort packages by a specific field                  | `date`   | `name`, `date`, `average`                                                   |
+| `--order <DIR>`         | Sort direction (ascending or descending)           | `asc`    | `asc`, `desc`                                                               |
+| `--pattern`             | Enable wildcard pattern matching for package names | (off)    |                                                                             |
+| `--warn-days <NUMBER>`  | Days threshold for warning                         | `90`     | Any positive integer                                                        |
+| `--error-days <NUMBER>` | Days threshold for error                           | `180`    | Any positive integer                                                        |
+| `--safe-color <COLOR>`  | Color for safe zone (named or HEX)                 | `green`  | Any [chalk named color](https://github.com/chalk/chalk#colors) or `#RRGGBB` |
+| `--warn-color <COLOR>`  | Color for warning zone (named or HEX)              | `yellow` | Any [chalk named color](https://github.com/chalk/chalk#colors) or `#RRGGBB`                                                                |
+| `--error-color <COLOR>` | Color for error zone (named or HEX)                | `red`    | Any [chalk named color](https://github.com/chalk/chalk#colors) or `#RRGGBB`                                                                |
+
+
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
