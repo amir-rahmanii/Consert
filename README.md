@@ -72,7 +72,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 | ----------------------- | -------------------------------------------------- | -------- | --------------------------------------------------------------------------- |
 | `--sort <TYPE>`         | Sort packages by a specific field                  | `date`   | `name`, `date`, `average`                                                   |
 | `--order <DIR>`         | Sort direction (ascending or descending)           | `asc`    | `asc`, `desc`                                                               |
-| `--pattern`             | Enable wildcard pattern matching for package names | (off)    |                                                                             |
+| `--pattern`             | Enable wildcard pattern matching for package names | Glob pattern, e.g., `"react-*"` or `"@types/*"`     (off)    |                                                                             |
 | `--warn-days <NUMBER>`  | Days threshold for warning                         | `90`     | Any positive integer                                                        |
 | `--error-days <NUMBER>` | Days threshold for error                           | `180`    | Any positive integer                                                        |
 | `--safe-color <COLOR>`  | Color for safe zone (named or HEX)                 | `green`  | Any [chalk named color](https://github.com/chalk/chalk#colors) or `#RRGGBB` |
